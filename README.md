@@ -12,12 +12,12 @@ A clean, responsive web application designed to help users track, categorize, an
 
 ## 📸 Screenshots
 ### Desktop View
-![Desktop Dashboard](assets/Screenshot03.png)
+![Desktop Dashboard](assets/Screenshot01.png)
 
 ### Adding a Goal & Setting Deadlines
 <p align="center">
   <img src="assets/iPad Mini01.png" alt="Choosing Category" width="32%">
-  <img src="assets/iPad Mini02.png" alt="Setting Deadline" width="32%">
+  <img src="assets/iPad Mini02.png" alt="Setting Deadline" width="32%" height="2000">
 </p>
 
 ### Mobile Responsive View & Edit Mode
@@ -50,6 +50,8 @@ my-bucket-list/
 ├── script.js           # Core logic, local storage, and interactivity
 └── assets/             # Images and visual assets
     ├── logo.webp       # Project logo
+    ├── screenshot00.jpg
     ├── screenshot01.jpg
-    ├── screenshot02.jpg
+    └── screenshot02.jpg
     └── screenshot03.jpg
+    └── screenshot04.jpg
