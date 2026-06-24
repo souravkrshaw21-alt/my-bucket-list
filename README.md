@@ -11,12 +11,14 @@ A clean, responsive web application designed to help users track, categorize, an
 [Click here to view the live project](https://souravkrshaw21-alt.github.io/my-bucket-list/)) 
 
 ## 📸 Screenshots
-### Mobile View
 ### Desktop View
-![Desktop Dashboard](assets/Screenshot01.png)
+![Desktop Dashboard](assets/Screenshot03.png)
 
 ### Adding a Goal & Setting Deadlines
-![Adding a Goal](assets/screenshot02.jpg)
+<p align="center">
+  <img src="assets/iPad Mini01.png" alt="Choosing Category" width="32%">
+  <img src="assets/iPad Mini02.png" alt="Setting Deadline" width="32%">
+</p>
 
 ### Mobile Responsive View & Edit Mode
 <p align="center">
