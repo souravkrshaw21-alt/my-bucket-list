@@ -8,7 +8,7 @@
 A clean, responsive web application designed to help users track, categorize, and achieve their life goals. The app features a dynamic visual progress indicator, automatic deadline calculations, and local storage integration so your dreams are always saved directly in your browser. 
 
 ## 🚀 Live Preview
-[Click here to view the live project](https://souravkrshaw21-alt.github.io/my-bucket-list/)) 
+[Click here to view the live project](https://souravkrshaw21-alt.github.io/my-bucket-list/) 
 
 ## 📸 Screenshots
 ### Desktop View
@@ -16,8 +16,8 @@ A clean, responsive web application designed to help users track, categorize, an
 
 ### Adding a Goal & Setting Deadlines
 <p align="center">
-  <img src="assets/iPad Mini01.png" alt="Choosing Category" width="32%">
-  <img src="assets/iPad Mini02.png" alt="Setting Deadline" width="32%" height="2000">
+  <img src="assets/iPad Mini01.png" alt="Choosing Category" width="48%">
+  <img src="assets/iPad Mini02.png" alt="Setting Deadline" width="48%">
 </p>
 
 ### Mobile Responsive View & Edit Mode
@@ -50,8 +50,10 @@ my-bucket-list/
 ├── script.js           # Core logic, local storage, and interactivity
 └── assets/             # Images and visual assets
     ├── logo.webp       # Project logo
-    ├── screenshot00.jpg
-    ├── screenshot01.jpg
-    └── screenshot02.jpg
-    └── screenshot03.jpg
-    └── screenshot04.jpg
+    ├── Screenshot01.png
+    ├── iPad Mini01.png
+    └── iPad Mini02.png
+    └── Galaxy S20 Ultra01.png
+    └── Galaxy S20 Ultra02.png
+    └── Galaxy S20 Ultra03.png
+
