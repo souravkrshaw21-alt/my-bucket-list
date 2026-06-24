@@ -11,15 +11,19 @@ A clean, responsive web application designed to help users track, categorize, an
 [Click here to view the live project](https://souravkrshaw21-alt.github.io/my-bucket-list/)) 
 
 ## 📸 Screenshots
-
+### Mobile View
 ### Desktop View
-![Desktop Dashboard](assets/screenshot01.jpg)
+![Desktop Dashboard](assets/Screenshot01.png)
 
 ### Adding a Goal & Setting Deadlines
 ![Adding a Goal](assets/screenshot02.jpg)
 
 ### Mobile Responsive View & Edit Mode
-![Mobile View](assets/screenshot03.jpg)
+<p align="center">
+  <img src="assets/Galaxy S20 Ultra01.png" alt="Dashboard" width="32%">
+  <img src="assets/Galaxy S20 Ultra02.png" alt="Adding a Goal" width="32%">
+  <img src="assets/Galaxy S20 Ultra03.png" alt="Removing a Goal" width="32%">
+</p>
 
 ## ✨ Features
 * **Goal Tracking:** Add new goals and assign them to specific categories (Travel, Career, Fitness, Learning, Personal).
