@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bucket List</title>
+    <link rel="icon" href="assets/logo.webp">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <header>
+            <img src="assets/logo.webp" alt="Bucket List Logo" class="logo">
+            <h1>My Bucket List</h1>
+            <p class="subtitle">Turn your dreams into achievements.</p>
+        </header>
+
+        <div class="search-section">
+            <span class="search-icon">🔍</span>
+            <input type="text" id="searchInput" placeholder="Search your goals...">
+        </div>
+
+        <div class="add-section">
+            <div class="inputs-row">
+                <input type="text" id="goalInput" placeholder="Enter a new goal">
+                
+                <select id="categorySelect">
+                    <option value="" disabled selected hidden>Select Category</option>
+                    <option value="Travel">Travel</option>
+                    <option value="Career">Career</option>
+                    <option value="Fitness">Fitness</option>
+                    <option value="Learning">Learning</option>
+                    <option value="Personal">Personal</option>
+                </select>
+
+                <div class="date-wrapper">
+                    <input
+                        type="text"
+                        id="deadlineInput"
+                        placeholder="Set Deadline"
+                        onfocus="this.type='date'; setTimeout(() => this.showPicker(), 50);"
+                        onblur="if(!this.value) this.type='text'"
+                    >
+                </div>
+            </div>
+            
+            <div class="action-row">
+                <button id="addBtn">Add</button>
+            </div>
+        </div>
+
+        <div class="stats">
+            <div>
+                <h3 id="totalGoals">0</h3>
+                <p>Total Goals</p>
+            </div>
+
+            <div>
+                <h3 id="completedGoals">0</h3>
+                <p>Completed</p>
+            </div>
+        </div>
+
+        <h3 class="progress-heading">Your Progress</h3>    
+        <div class="progress-container">
+            <div id="progressBar"></div>
+        </div>
+        <p id="progressText">Progress: 0%</p>
+
+        <h2 class="section-title">Your Goals</h2>
+        
+        <div class="filters">
+            <div class="filter-group">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="pending">Pending</button>
+                <button class="filter-btn" data-filter="completed">Completed</button>
+            </div>
+            
+            <button id="editBtn" class="edit-icon-btn" title="Edit Goals">
+                ✏️
+            </button>
+        </div>
+
+        <div id="goalList">
+        </div>
+
+        <div id="emptyState">
+            No goals yet. Start adding your dreams!
+        </div>
+
+        <footer>
+            Built with ❤️ using HTML, CSS & JavaScript
+        </footer>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
